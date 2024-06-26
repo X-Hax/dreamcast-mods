@@ -1,0 +1,38 @@
+(1ST_READ) Expand Act 1's object list
+NOTE: In case 2CC83700-2CCA7FD0 is used by something else and breaks the game, there needs to be two spaces at least 0xE2C0 each in size to fit both the SET file and the current object list.
+8C0730C2: 0x3FF ->0x7FF
+0080B60C -> 0037C80C
+40EA788C - > 701AC98C
+44EA788C - > 741AC98C
+48EA788C - > 781AC98C
+4CEA788C - > 7C1AC98C
+
+(1ST_READ) Fix PVM references, put pointers to filename strings in these blanks:
+[1ST_READ.BIN]
+180678 = 57 49 4E 44 59 5F 45 31 30 33 00 00 4F 42 4A 5F 57 49 4E 44 59 00 00 00
+1806F0 = 84 06 19 8C
+180718 = 78 06 19 8C
+180720 = 0C 79 12 8C
+
+(STG02) Fix Act 2 null texlist crashing:
+0C90AD3A: 09 00 09 00
+0C90B032: 09 00 09 00
+
+(STG02) Add WINDY01/WINDY03 strings to the end of the file:
+0CAD4AB0:57494E44 59303100 00000000 57494E44 59303300 00000000
+
+(STG02) Fix the collision on moving platforms. Write this to 0CAD4AC8
+6262FEE3 06D407D1 39222B41 09000900 09000900 09000900 09000900 09000900 00000008 206E048C
+Then take the pointer to it (C84AAD0C) and write it to these addrs (Overriding RegisterCollisionEntry):
+0C90AAA0 - Act 2 geometry
+0C90488C - Raft1
+0C904CD4 - Other rafts
+
+(STG02) Reduce lag from PU WIND by changing to EasyDraw:
+0C90084C: D21C5C8C
+
+(STG02) Move Stage RAM to accommodate filesize change:
+A84AAD0C -> F44AAD0C
+C84AAD0C -> 144BAD0C
+D04AAD0C -> 2C4BAD0C
+E84AAD0C -> 344BAD0C
