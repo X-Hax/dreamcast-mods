@@ -1,0 +1,8 @@
+34 Twinkle Circuit (PL_Y0B)
+35 Sky Chase Act 1 (PL_Z0B)
+35 Sky Chase Act 2 (PL_Z0B - looks like it loads the one for Act 1 even if the one for Act 2 exists)
+36 Sand Hill (PL1A0B)
+37 SS garden (PL1B0B)
+38 EC garden (PL1C0B)
+39 MR garden (PL1D0B)
+40 Chao Race (PL1E0B)

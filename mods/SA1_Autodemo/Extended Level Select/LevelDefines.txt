@@ -1,0 +1,109 @@
+0000 0001 0002 0100 0101 0102 0200 0201 0202 0300 0301 0302 0400 0401 0402 0500 0501 0502 0600 0601 0602 0700 0701 0702 0800 0801 0802 0803 0900 0901 0902 0903 0a00 0a01 0a02 0a03 0a04 0a05 0f00 1000 1100 1200 1300 1400 1500 1600 1700 1800 1900 1a00 1a01 1a02 1a03 1a04 1a05 1d00 1d01 1d02 1d03 1d04 1d05 2000 2001 2002 2003 2004 2005 2100 2101 2102 2103 2200 2300 2301 2400 2500 2600 2700 2800
+
+
+not defined:
+0a03 final egg 4 (empty)
+0a04 final egg 5 (empty)
+0a05 final egg 6 (hard reset)
+0b00 No
+0c00 No
+0d00 No
+0e00 No
+1500 Eggmobile2 (missing)
+1700 EggmanRobo
+1800 E101 (missing)
+1b00 No Entry
+1c00 No Entry
+1e00 No Entry
+1f00 No Entry
+2900 Error
+
+full list:
+0000 Practice 1
+0001 Practice 2
+0002 Practice 3
+0100 Beach 1
+0101 Beach 2
+0102 Beach 3
+0200 Windy 1
+0201 Windy 2
+0202 Windy 3
+0300 Twinkle 1
+0301 Twinkle 2
+0302 Twinkle 3
+0400 Highway
+0401 Building
+0402 Down Town
+0500 Mountain 1
+0500 Mountain 2
+0501 Mountain 3
+0600 Sky Deck 1
+0601 Sky Deck 2
+0602 Sky Deck 3
+0700 Ruin 1
+0701 Ruin 2
+0702 Ruin 3
+0800 Icecap 1
+0801 Icecap 2
+0802 Icecap 3
+0803 Icecap Big
+0900 Casino 1
+0901 Casino 2
+0902 Casino 3
+0903 Casino 4
+0a00 Final 1
+0a01 Final 2
+0a02 Final 3
+0a03 Final 4 (Egg Viper cutscene area at 0,0,0)
+0a04 Final 5 (empty)
+0a05 Final 6 (hard reset)
+0b00 No
+0c00 No
+0d00 No
+0e00 No
+0f00 Chaos 0
+1000 Chaos 2
+1100 Chaos 4
+1200 Chaos 6
+1300 Chaos 7
+1400 Eggmobile 1
+1500 Eggmobile2 (missing)
+1600 Eggmobile 3
+1700 EggmanRobo
+1800 E101 (missing)
+1900 E101 R
+1a00 SD Office
+1a01 SD Casino
+1a02 SD Gesui
+1a03 SD Station
+1a04 SD Hotel
+1a05 SD Twinkle
+1b00 No Entry
+1c00 No Entry
+1d00 EC Deck FB
+1d01 EC Deck F
+1d02 EC Deck B
+1d03 EC Captain
+1d04 EC Living
+1d05 EC Pool
+1e00 No Entry
+1f00 No Entry
+2000 Booster
+2001 Hall
+2002 Mogura
+2003 Prison
+2004 Tyosui
+2005 Kakushi
+2100 MR A
+2101 MR B
+2102 MR C
+2103 MR D
+2200 Cart
+2300 Shooting1
+2301 Shooting2
+2400 Sunaboard
+2500 ALife SS
+2600 ALife EG
+2700 ALife MR
+2800 ALife Race
+2900 Error

@@ -1,0 +1,41 @@
+Entering and exiting SetEdit will put you into free movement mode and enable controls if they were disabled. 
+This is useful during cutscenes and in hubs and chao gardens, but can lead to unintended crashes if you mess around in a cutscene.
+
+
+Free Movement Mode:
+A: Exit free movement mode.
+B: Return to start point.
+Thumbstick: Move character on horizontal plane.
+X+Thumbstick: Move character up and down.
+L/R: Rotate camera if current camera mode allows.
+
+
+SetEdit:
+A+X: Enter editor.
+
+Start + Analog: Rotate camera.
+Start + L/R: Zoom camera.
+Start+X: Snap cursor to floor.
+Directional Pad: Move on horizontal plane.
+L/R: Move up and down.
+
+X/Y/B+Directional Pad: Edit flashing coordinates corresponding with the held button.
+A+Directional Pad: Navigate item list.
+A+B: Cycle ACT MODE between Place, Multi, and System.
+
+In PLACE mode:
+
+A+X: Cycle the coordinate editor between position, rotation and scale.
+Start+A: Grab the closest object from the current DATA TYPE.
+Start+B: Place object.
+
+In MULTI mode:
+
+A+X: Cycle the coordinate editor between position, rotation and scale.
+Start+A: Increase number of objects held.
+Start+B: Decrease number of objects held.
+
+In SYSTEM mode:
+
+X: Cycle DATA TYPE between "COMMON SET" (Objects in SETXXXX_S files) and "PLAYER DEPENDENT SET" (Objects in SETXXXX_U files).
+A+X: Exit editor.

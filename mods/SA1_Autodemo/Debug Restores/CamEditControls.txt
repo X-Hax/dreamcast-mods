@@ -1,0 +1,22 @@
+Entering CamEdit does not get rid of the player and the player can still perform a spindash while the editor initialises.
+
+Y+X: Activate CamEdit
+A+B: Toggle Mode (Set/System)
+
+SET:
+X: X Axis Adjustment
+Y: Y Axis Adjustment
+B: Z Axis Adjustment
+A+U/D - Edit Element
+A+L/R - Camera Mode
+A+X - Camera Level
+Start+A: Grab Camera
+Start+B: Place Camera
+Start+X: Adjust Mode
+Start+Y: Collision Type
+
+
+SYSTEM:
+B: Toggle visible cameras
+Y: Toggle visible display (Full/Minimal/Hidden)
+A+X: Exit CamEdit
