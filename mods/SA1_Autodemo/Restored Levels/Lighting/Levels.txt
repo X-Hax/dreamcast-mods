@@ -1,8 +1,18 @@
-34 Twinkle Circuit (PL_Y0B)
-35 Sky Chase Act 1 (PL_Z0B)
-35 Sky Chase Act 2 (PL_Z0B - looks like it loads the one for Act 1 even if the one for Act 2 exists)
-36 Sand Hill (PL1A0B)
-37 SS garden (PL1B0B)
-38 EC garden (PL1C0B)
-39 MR garden (PL1D0B)
-40 Chao Race (PL1E0B)
+Level IDs that are different from the final version:
+34 Twinkle Circuit (Y0B)
+35 Sky Chase Act 1 (Z0B)
+35 Sky Chase Act 2 (Z0B - looks like it loads the one for Act 1 even if the one for Act 2 exists)
+36 Sand Hill (1A0B)
+37 SS garden (1B0B)
+38 EC garden (1C0B)
+39 MR garden (1D0B)
+40 Chao Race (1E0B)
+
+Notes on Station Square:
+-Act 0/City Hall area loads Q0B (doesn't exist in final/AD) but having that file overrides lighting in other acts
+-Act 1/Casino area loads Q1B (evening in final and AD)
+-Act 2/Sewers area loads Q2B (doesn't exist in final/AD)
+-Act 3/Station area loads Q3B (night in final, doesn't exist in AD)
+-Act 4/Hotel area loads Q4B (day in final and AD)
+-Act 5/Twinkle Park area loads Q5B (doesn't exist in final and AD)
+In this mod, Q0B is not restored, Q2B is day, Q3B is night and Q5B is day.
