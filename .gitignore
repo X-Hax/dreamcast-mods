@@ -4,6 +4,8 @@
 
 /.vs
 /DreamcastImageBuilder.*
+/*.pdb
 /oldmods
 /prs
 /settings.ini
+/games/ignore
